@@ -1,0 +1,227 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "vasanth",
+      "email": "varathan2512002@gmail.com",
+      "password": "sivasiva",
+      "number": "9360733323"
+    },
+    {
+      "name": "hari",
+      "email": "hari@gmail.com",
+      "number": 1234554321,
+      "password": "hari",
+      "id": 2
+    },
+    {
+      "name": "hari1",
+      "email": "hari2@gmail.com",
+      "number": 1234567876,
+      "password": "hari",
+      "id": 3
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "banner1": "https://firebasestorage.googleapis.com/v0/b/jewels-a3762.appspot.com/o/kids%2Fbanner1.jpg?alt=media&token=696e2508-5858-4ec5-943f-11529fdf276c",
+      "banner2": "https://firebasestorage.googleapis.com/v0/b/jewels-a3762.appspot.com/o/kids%2Fbanner1.jpg?alt=media&token=696e2508-5858-4ec5-943f-11529fdf276c",
+      "banner3": "https://firebasestorage.googleapis.com/v0/b/jewels-a3762.appspot.com/o/kids%2Fbanner3.jpg?alt=media&token=0282619c-b3ef-44df-9317-c501eb95683d"
+    }
+  ],
+  "employee": [
+    {
+      "Name": "emp1",
+      "Phone": 1234567890,
+      "Section": "MENS",
+      "Salary": 123456,
+      "EID": "EMP001",
+      "Gender": "male",
+      "date": "01/08/2023",
+      "id": 1
+    },
+    {
+      "Name": "emp2",
+      "Phone": 9876543212,
+      "Section": "WOMENS",
+      "Salary": 6788,
+      "EID": "EMP002",
+      "Gender": "male",
+      "date": "01/08/2023",
+      "id": 2
+    },
+    {
+      "Name": "emp3",
+      "Phone": 9876543211,
+      "Section": "KIDS",
+      "Salary": 6788,
+      "EID": "EMP003",
+      "Gender": "male",
+      "date": "01/08/2023",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "Name": "mens",
+      "PID": "MEN001",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/jewels-a3762.appspot.com/o/kids%2Fbanner3.jpg?alt=media&token=0282619c-b3ef-44df-9317-c501eb95683d",
+      "Price": 789,
+      "OriginalPrice": 89,
+      "Offer": 89,
+      "Stock": 10,
+      "catogory": "MENS",
+      "lastChanges": "EMP001",
+      "review": [
+        {
+          "user": "John Doe",
+          "message": "Impressive sound quality, highly recommended!"
+        },
+        {
+          "user": "Jane Smith",
+          "message": "Great bass and surround sound effects."
+        },
+        {
+          "user": "Michael Johnson",
+          "message": "Easy to set up and use."
+        },
+        {
+          "user": "Sarah Adams",
+          "message": "Good value for money."
+        },
+        {
+          "user": "Robert Clark",
+          "message": "The remote control is user-friendly."
+        },
+        {
+          "user": "Emily Brown",
+          "message": "The speakers look stylish and elegant."
+        },
+        {
+          "user": "Daniel Lee",
+          "message": "Excellent audio output for movies and music."
+        },
+        {
+          "user": "Laura Williams",
+          "message": "The wireless connectivity is convenient."
+        },
+        {
+          "user": "Kevin Martinez",
+          "message": "Packed with features, worth every penny."
+        },
+        {
+          "user": "Jennifer Davis",
+          "message": "I expected better build quality for the price."
+        },
+        {
+          "user": "William Robinson",
+          "message": "The subwoofer delivers powerful bass."
+        },
+        {
+          "user": "Sophia Garcia",
+          "message": "Not suitable for large rooms, best for small spaces."
+        },
+        {
+          "user": "Ethan Moore",
+          "message": "The sound calibration feature is handy."
+        },
+        {
+          "user": "Ava Wilson",
+          "message": "Bluetooth connectivity works flawlessly."
+        },
+        {
+          "user": "James Taylor",
+          "message": "The remote control has limited range."
+        },
+        {
+          "user": "Olivia Martin",
+          "message": "The price is a bit steep for the overall quality."
+        },
+        {
+          "user": "Benjamin White",
+          "message": "Surround sound is not as immersive as expected."
+        },
+        {
+          "user": "Mia Lopez",
+          "message": "The overall sound balance is excellent."
+        },
+        {
+          "user": "Noah Hill",
+          "message": "The build and design are top-notch."
+        },
+        {
+          "user": "Elizabeth Allen",
+          "message": "The setup instructions could be clearer."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "Name": "womens",
+      "PID": "WOM001",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/jewels-a3762.appspot.com/o/kids%2Fbanner3.jpg?alt=media&token=0282619c-b3ef-44df-9317-c501eb95683d",
+      "Price": 789,
+      "OriginalPrice": 89,
+      "Offer": 89,
+      "Stock": 9,
+      "catogory": "WOMENS",
+      "review": {
+        "id": "",
+        "user": "",
+        "message": ""
+      }
+    },
+    {
+      "id": 3,
+      "Name": "womens",
+      "PID": "KID001",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/jewels-a3762.appspot.com/o/kids%2Fbanner3.jpg?alt=media&token=0282619c-b3ef-44df-9317-c501eb95683d",
+      "Price": 789,
+      "OriginalPrice": 89,
+      "Offer": 89,
+      "Stock": 9,
+      "catogory": "KIDS",
+      "review": {
+        "id": "",
+        "user": "",
+        "message": ""
+      }
+    },
+    {
+      "id": 4,
+      "Name": "harini",
+      "PID": "WOM002",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/jewels-a3762.appspot.com/o/kids%2Fbanner3.jpg?alt=media&token=0282619c-b3ef-44df-9317-c501eb95683d",
+      "Price": 56788,
+      "OriginalPrice": 65432,
+      "Offer": 56,
+      "Stock": 5,
+      "catogory": "WOMENS",
+      "lastChanges": "EMP002",
+      "review": {
+        "id": "",
+        "user": "",
+        "message": ""
+      }
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
