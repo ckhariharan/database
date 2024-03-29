@@ -35,7 +35,7 @@
       "Name": "emp1",
       "Phone": 1234567890,
       "Section": "MENS",
-      "Salary": 123456,
+      "Salary": 20000,
       "EID": "EMP001",
       "Gender": "male",
       "date": "01/08/2023",
@@ -43,9 +43,9 @@
     },
     {
       "Name": "emp2",
-      "Phone": 9876543212,
+      "Phone": 9876543211,
       "Section": "WOMENS",
-      "Salary": 6788,
+      "Salary": 20000,
       "EID": "EMP002",
       "Gender": "male",
       "date": "01/08/2023",
@@ -53,9 +53,9 @@
     },
     {
       "Name": "emp3",
-      "Phone": 9876543211,
+      "Phone": 1234567899,
       "Section": "KIDS",
-      "Salary": 6788,
+      "Salary": 20000,
       "EID": "EMP003",
       "Gender": "male",
       "date": "01/08/2023",
@@ -65,17 +65,18 @@
   "products": [
     {
       "id": 1,
-      "Name": "mens",
+      "Name": "Mens Plain Shirt",
       "PID": "MEN001",
-      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/jewels-a3762.appspot.com/o/kids%2Fmens1.jpg?alt=media&token=64720842-149d-4403-8eec-594013388a05",
-      "Price": 789,
-      "OriginalPrice": 89,
-      "Offer": 89,
-      "Stock": 10,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/clothingboutique-9a634.appspot.com/o/COOFANDY%20Men's%20Casual%20Dress%20Suit%20Vest%20Slim%20Fit%20Business%20Formal%20Waistcoat%20Vest.jpg?alt=media&token=18804b97-f63a-461e-a4f2-546441427e43",
+      "Price": 960,
+      "OriginalPrice": 1200,
+      "Offer": 80,
+      "Stock": 50,
       "catogory": "MENS",
       "lastChanges": "EMP001",
       "review": [
         {
+          "id":1,
           "user": "John Doe",
           "message": "Impressive sound quality, highly recommended!"
         }
@@ -84,17 +85,18 @@
     },
     {
       "id": 2,
-      "Name": "mens",
+      "Name": "Mens Solid Shirt",
       "PID": "MEN002",
-      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/jewels-a3762.appspot.com/o/kids%2Fmens2.jpg?alt=media&token=a89a9d26-7930-4ac0-9ebf-888c15bccf4a",
-      "Price": 789,
-      "OriginalPrice": 89,
-      "Offer": 89,
-      "Stock": 10,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/clothingboutique-9a634.appspot.com/o/COOFANDY%20Men's%20Suit%20Vest%20Slim%20Fit%20Formal%20Business%20Dress%20Vest%20Casual%20Wedding%20Waistcoat.jpg?alt=media&token=cbddd509-2263-4a4d-b1ef-13d983b15079",
+      "Price": 880,
+      "OriginalPrice": 1100,
+      "Offer": 80,
+      "Stock": 40,
       "catogory": "MENS",
       "lastChanges": "EMP001",
       "review": [
         {
+          "id":2,
           "user": "John Doe",
           "message": "Impressive sound quality, highly recommended!"
         }
@@ -102,17 +104,18 @@
       ]
     }, {
       "id": 3,
-      "Name": "mens",
+      "Name": "Mens stylish shirt",
       "PID": "MEN003",
-      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/jewels-a3762.appspot.com/o/kids%2Fmens3.jpg?alt=media&token=8baf119b-3995-4848-87d4-309666b77fd6",
-      "Price": 789,
-      "OriginalPrice": 89,
-      "Offer": 89,
-      "Stock": 10,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/clothingboutique-9a634.appspot.com/o/COOFANDY%20Men's%20V-Neck%20Sleeveless%20Slim%20Fit%20Business%20Wedding%20Vests%20casual%20suit%20vests%20Dress%20Waistcoat.jpg?alt=media&token=4d1f59ab-de02-406f-8933-aa9f87d57238",
+      "Price": 920,
+      "OriginalPrice": 1150,
+      "Offer": 80,
+      "Stock": 60,
       "catogory": "MENS",
       "lastChanges": "EMP001",
       "review": [
         {
+          "id":3,
           "user": "John Doe",
           "message": "Impressive sound quality, highly recommended!"
         }
@@ -123,97 +126,97 @@
       "id": 4,
       "Name": "womens",
       "PID": "WOM001",
-      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/jewels-a3762.appspot.com/o/kids%2Fwomens1.jpg?alt=media&token=be897221-f544-43ad-af49-f74febecfe57",
-      "Price": 789,
-      "OriginalPrice": 89,
-      "Offer": 89,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/clothingboutique-9a634.appspot.com/o/Bbonlinedress%20Women's%20Lace%20Bridesmaid%20Dress%20A-Line%20Vintage%20Off%20Shoulder%20Floral%20Lace%20Chiffon%20Wedding%20Dress.jpg?alt=media&token=4e3f1a90-1939-4992-9254-70f8436b1e4a",
+      "Price": 840,
+      "OriginalPrice": 1200,
+      "Offer": 70,
       "Stock": 59,
       "catogory": "WOMENS",
       "review": {
-        "id": "",
-        "user": "",
-        "message": ""
+        "id": "1",
+        "user": "luna",
+        "message": "Impressive sound quality, highly recommended!"
       }
     },
     {
       "id": 5,
       "Name": "womens",
       "PID": "KID001",
-      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/jewels-a3762.appspot.com/o/kids%2Fkids1.jpg?alt=media&token=d64f8771-9848-4297-bb30-7f4fd3cbc042",
-      "Price": 789,
-      "OriginalPrice": 89,
-      "Offer": 89,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/clothingboutique-9a634.appspot.com/o/Whole%20Sale%20Custom%20Summer%208%20Years%20Girl%20Party%20Dresses%20Kids%20Sequin%20Dress%20Girls%20Children%20Princess%20Dress%20For%20Kids%20-%20Buy%20Kids%20Sequin%20Dress%20Girls%2CGirls%20Princess%20Dress%2CParty%20Dresses%208%20Years%20Girl%20Product%20on%20Alibaba_com.jpg?alt=media&token=e83411fc-ee16-4145-9687-6e6f7caa1d24",
+      "Price": 400,
+      "OriginalPrice": 280,
+      "Offer": 70,
       "Stock": 39,
       "catogory": "KIDS",
       "review": {
-        "id": "",
-        "user": "",
-        "message": ""
+        "id": "1",
+        "user": "poul",
+        "message": "Impressive sound quality, highly recommended!"
       }
     },
     {
       "id": 6,
       "Name": "womens",
       "PID": "KID002",
-      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/jewels-a3762.appspot.com/o/kids%2Fkids2.jpg?alt=media&token=0e9c7de5-06df-456e-914d-b32d7c49f599",
-      "Price": 789,
-      "OriginalPrice": 89,
-      "Offer": 89,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/clothingboutique-9a634.appspot.com/o/AIMJCHLD%202-10%20Years%20Girls%20Pageant%20Party%20Dresses%20for%20Easter%20Christmas%20Day%20Wedding%20Dress.jpg?alt=media&token=b5bbe40d-ac83-4d6f-8b49-4f3e3f653b13",
+      "Price": 560,
+      "OriginalPrice": 800,
+      "Offer": 70,
       "Stock": 59,
       "catogory": "KIDS",
       "review": {
-        "id": "",
-        "user": "",
-        "message": ""
+        "id": "2",
+        "user": "Gil",
+        "message": "Impressive sound quality, highly recommended!"
       }
     },  {
       "id": 7,
       "Name": "womens",
       "PID": "KID003",
-      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/jewels-a3762.appspot.com/o/kids%2Fkids2.jpg?alt=media&token=0e9c7de5-06df-456e-914d-b32d7c49f599",
-      "Price": 789,
-      "OriginalPrice": 89,
-      "Offer": 89,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/clothingboutique-9a634.appspot.com/o/Cichic%20Elegant%20Girls'%20Special%20Occasion%20Dress%20Princess%20Dresses%20for%20Kids.jpg?alt=media&token=79d98f0b-43cb-4015-8b02-c07ef54d2153",
+      "Price": 630,
+      "OriginalPrice": 900,
+      "Offer": 70,
       "Stock": 39,
       "catogory": "KIDS",
       "review": {
-        "id": "",
-        "user": "",
-        "message": ""
+        "id": "3",
+        "user": "Davi",
+        "message": "Impressive sound quality, highly recommended!"
       }
     },
     {
       "id": 8,
       "Name": "harini",
       "PID": "WOM002",
-      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/jewels-a3762.appspot.com/o/kids%2Fkids3.jpg?alt=media&token=515e9209-1c21-49b9-8f97-4be8d71a5ed2",
-      "Price": 56788,
-      "OriginalPrice": 65432,
-      "Offer": 56,
-      "Stock": 58,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/clothingboutique-9a634.appspot.com/o/BeryLove%20Women's%20Floral%20Lace%20Short%20Bridesmaid%20Dress%20Cap%20Sleeve%20Cocktail%20Party%20Dress.jpg?alt=media&token=cf10d253-e373-474a-a3b2-0f1e5da81c06",
+      "Price": 910,
+      "OriginalPrice": 1300,
+      "Offer": 70,
+      "Stock": 39,
       "catogory": "WOMENS",
       "lastChanges": "EMP002",
       "review": {
-        "id": "",
-        "user": "",
-        "message": ""
+        "id": "2",
+        "user": "Ava",
+        "message": "Impressive sound quality, highly recommended!"
       }
     },
     {
       "id": 9,
       "Name": "harini",
       "PID": "WOM003",
-      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/jewels-a3762.appspot.com/o/kids%2Fwomens3.jpg?alt=media&token=cd381888-db01-4cfa-8ef7-0b1fb7591c45",
-      "Price": 56788,
-      "OriginalPrice": 65432,
-      "Offer": 56,
-      "Stock": 25,
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/clothingboutique-9a634.appspot.com/o/Women's%20Swing%20Dress%20Vintage%20Tea%20Dresses%20Midi%20Dress%20Black%20Yellow%20Pink%20Short%20Sleeve%20Pure%20Color%20Ruched%20Spring%20Summer%20Crew%20Neck%20Vintage%20Daily%20Weekend%20Slim%20S%20M%20L%20XL%20XXL%202024%20-%20%2429_99.jpg?alt=media&token=c210cb03-fa0d-4313-9e91-e898b248e7b0",
+      "Price": 980,
+      "OriginalPrice": 1400,
+      "Offer": 70,
+      "Stock": 39,
       "catogory": "WOMENS",
       "lastChanges": "EMP002",
       "review": {
-        "id": "",
-        "user": "",
-        "message": ""
+        "id": "3",
+        "user": "clara",
+        "message": "Impressive sound quality, highly recommended!"
       }
     }
   ],
